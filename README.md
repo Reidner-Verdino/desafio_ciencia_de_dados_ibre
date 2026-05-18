@@ -79,7 +79,7 @@ Direto: codifico a consulta com o mesmo modelo, calculo o produto escalar com to
 Rodei as três queries do enunciado. Resumindo:
 
 **"mudanças na taxa de juros"**
-Os primeiros resultados foram as notícias do Copom (IDs 1, 6 e 11, que falam de manter, cortar e projetar a Selic) e a ID 5 sobre o Fed/Powell. Achei interessante a ID 5 ter aparecido bem ranqueada mesmo sem citar "Selic" explicitamente — é exatamente o tipo de match que justifica usar busca semântica em vez de palavra-chave.
+Os primeiros resultados foram as notícias do Copom (IDs 1, 6 e 11, que falam de manter, cortar e projetar a Selic) e a ID 5 sobre o Fed/Powell. Achei interessante a ID 5 ter aparecido bem ranqueada mesmo sem citar "Selic" explicitamente, é exatamente o tipo de match que justifica usar busca semântica em vez de palavra-chave.
 
 **"mercado de trabalho e desemprego"** 
 Os IDs 4 e 14 (taxa de desemprego geral e desemprego juvenil) lideraram com folga. Resultado bem direto, é o que se espera.
