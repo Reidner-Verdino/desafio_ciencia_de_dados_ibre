@@ -43,7 +43,7 @@ python etapa3_busca.py "câmbio e dólar"
 
 ### Limpeza
 
-Usei `BeautifulSoup` para tirar as tags HTML — escolhi ele em vez de regex porque lida melhor com tags e atributos. Depois `html.unescape` para decodificar as entidades (`&eacute;` → `é`, `&ccedil;` → `ç`, etc.).
+Usei `BeautifulSoup` para tirar as tags HTML, escolhi ele em vez de regex porque lida melhor com tags e atributos. Depois `html.unescape` para decodificar as entidades (`&eacute;` → `é`, `&ccedil;` → `ç`, etc.).
 
 Para os timestamps embutidos no texto, dois regex:
 - um para o prefixo `Publicado em:`
