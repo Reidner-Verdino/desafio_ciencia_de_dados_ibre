@@ -1,4 +1,4 @@
-# Motor de busca semântico — notícias econômicas
+# Motor de busca semântico: notícias econômicas
 
 Está é uma solução do desafio técnico para estágio em ciência de dados no FGV IBRE, conforme pedido. Construí um pequeno motor de busca semântico sobre 20 notícias fictícias da economia brasileira.
 
@@ -61,7 +61,7 @@ Mantive a estrutura original dos campos no JSON limpo. A notícia de ID 18 (que 
 Escolhi `paraphrase-multilingual-MiniLM-L12-v2`. Os motivos:
 
 1. **Multilíngue com bom português.** Treinado em 50+ idiomas com pares paralelos, funciona bem em PT-BR.
-2. **Leve.** ~118MB, roda confortavelmente em CPU. Importa para reprodutibilidade — quem clonar o repo consegue rodar sem GPU.
+2. **Leve.** ~118MB, roda confortavelmente em CPU. Importa para reprodutibilidade, onde quem clonar o repo consegue rodar sem GPU.
 3. **Boa qualidade em similaridade semântica.** Performance sólida nos benchmarks de STS multilíngue.
 
 Considerei também o `distiluse-base-multilingual-cased-v1`, que é maior (~480MB) com qualidade comparável. Para um corpus pequeno e um projeto pedagógico, o ganho não compensa o tamanho.
